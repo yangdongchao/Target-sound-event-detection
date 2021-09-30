@@ -11,7 +11,7 @@ eg. 100263-2-0-117.wav []
 
 In our experiments, we randomly choose embedding according to class name.
 
-### 运行方式
+### How to run code
 bash bash/tsd.sh
 
 
