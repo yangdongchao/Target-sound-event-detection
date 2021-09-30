@@ -18,6 +18,9 @@ bash bash/tsd.sh
 ### Join train
 please run bash/jtsd.sh
 
+### TO do list
+We only realease the fully supervised training code, the weakly training code is similar with this. If you need it, please let me known.
+
 ### reference
 https://github.com/RicherMans/CDur
 https://www.kaggle.com/adinishad/urbansound-classification-with-pytorch-and-fun
