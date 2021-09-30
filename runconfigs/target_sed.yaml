@@ -1,0 +1,29 @@
+train_data: /data/ydc_data/urban_target_detection_train.h5
+cv_data: /data/ydc_data/urban_target_detection_validate.h5
+test_data: /data/ydc_data/urban_target_detection_test_new_name.h5
+spk_emb_file_path: /home/ydc/wsed/target_sound_detection/data/features/spk_embed.128.txt
+batch_size: 128
+num_workers: 3
+data_args:
+    mode: stratified # Stratified split to train and cv
+optimizer: AdamW
+label: /home/ydc/wsed/target_sound_detection/data/flists/strong_test_new_name.tsv
+optimizer_args:
+    lr: 0.001
+epochs: 100 
+model: CDur_fusion
+model_args: #Currently None, no additional args
+    temppool: linear
+outputpath: experiments/UrbanSED
+transforms: [freqmask, timemask, shift]
+shuffle: False
+sampler: MinimumOccupancySampler
+loss: BCELoss
+save: one
+early_stop: 7
+scheduler_args:
+    patience: 3
+    factor: 0.1
+outputpath: experiments
+scale: 2
+postprocessing: median
