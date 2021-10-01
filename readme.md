@@ -3,8 +3,8 @@ Please first download the Urbansound-sed dataset and Urbansound8K dataset. <br/>
 After that, please run the following commond:<br/>
 python data/extract_feature.py <br/>
 <strong> if a mixture audio include N envents, so that we can generate N samples.
-sample style： filename_event target_event mel_feature time
-eg.  soundscape_test_bimodal0_gun_shot.wav gun_shot [[0,1],[1,1]]  [[],[]]
+sample style： filename_event  target_event   mel_feature  time
+eg.  soundscape_test_bimodal0_gun_shot.wav  gun_shot  [[0,1],[1,1]]   [[],[]]
 </strong>
 In our experiments, we randomly choose embedding according to class name.
 
