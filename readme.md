@@ -10,6 +10,7 @@ eg.  soundscape_test_bimodal0_gun_shot.wav  gun_shot  [[0,1],[1,1]]   [[],[]]
 </strong>
 In our experiments, we randomly choose embedding according to class name.
 
+you can also use the feature we extracted, please download it from google dirve <a>https://drive.google.com/drive/folders/1oMfoDX_UQgalKMQstUx3D8kSwOvP8KXz?usp=sharing</a>. you only need to place the feature file to correct path, then you can run it.
 ### How to run code
 bash bash/tsd.sh
 
