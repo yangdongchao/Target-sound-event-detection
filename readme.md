@@ -1,6 +1,8 @@
 ## Inroduction
 This is the source code of "Detect what you want: Target Sound Detection", we have submit this paper to ICASSP2022,  you can find our paper on <a>https://arxiv.org/abs/2112.10153</a>
 ### first step ---> data process
+The process of getting data, as Figure 1 shows:
+
 Please first download the Urbansound-sed dataset and Urbansound8K dataset. <br/>
 After that, please run the following commond:<br/>
 python data/extract_feature.py <br/>
