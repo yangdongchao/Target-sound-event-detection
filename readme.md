@@ -1,5 +1,5 @@
 ## Inroduction
-This is the source code of "Detect what you want: Target Sound Detection", we have submit this paper to ICASSP2022,  you can find our paper on <a>https://arxiv.org/abs/2112.10153</a>
+This is the source code of "Detect what you want: Target Sound Detection"
 ### first step ---> data process
 The process of getting data, as Figure 1 shows:
 ![Image text](./1.PNG)
